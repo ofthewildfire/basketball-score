@@ -40,3 +40,14 @@ function add3guest() {
   let guestScoreNew = guestScore += 3;
   guestScoreLog.textContent = guestScoreNew;
 }
+
+// Reset button 
+
+let resetBtn = get.getElementById('new-game');
+
+function reset() {
+  homeScore = 0;
+  guestScore = 0;
+  guestScoreLog.textContent = 0;
+  homeScoreLog.textContent = 0;
+}
