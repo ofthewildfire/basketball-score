@@ -43,7 +43,7 @@ function add3guest() {
 
 // Reset button 
 
-let resetBtn = get.getElementById('new-game');
+let resetBtn = document.getElementById('new-game');
 
 function reset() {
   homeScore = 0;
